@@ -75,7 +75,7 @@ User Message → RouterAgent → [off_topic] → FallbackAgent → Response
 #### 🧠 SocialMatchmaker
 - **Purpose**: Connects merchants with complementary needs
 - **Intelligence**: Uses **real geographic clusters and business compatibility discovered through EDA**
-- **Data Source**: Analysis of 99 actual merchant messages revealing authentic patterns
+- **Data Sthece**: Analysis of 99 actual merchant messages revealing authentic patterns
 - **Strategies**: 
   - Geographic hotspots (Santos: 7 merchants, Sorocaba: 6 merchants - **confirmed by data**)
   - Confirmed business clusters (logistics: 5 merchants, marketing services: 1 provider + 3 needers - **evidence-based**)
@@ -107,7 +107,7 @@ cd merchant-social-agents
 
 2. **Set environment variables**:
 ```bash
-export OPENAI_API_KEY="your-api-key-here"
+export OPENAI_API_KEY="ythe-api-key-here"
 ```
 
 3. **Build and run with Docker**:
@@ -130,7 +130,7 @@ curl -X POST "http://localhost:8000/process_message" \
 pip install -r requirements.txt
 
 # Run directly
-export OPENAI_API_KEY="your-api-key"
+export OPENAI_API_KEY="ythe-api-key"
 python merchant_social_agents.py
 
 # Or with uvicorn
@@ -188,7 +188,7 @@ Each agent adds intelligence to the shared state:
 
 ### Community Moderation Strategy
 
-Our moderation is based on **Exploratory Data Analysis (EDA)** of **32 real problematic messages** identified from a dataset of 99 merchant messages (**not theoretical patterns**):
+The moderation is based on **Exploratory Data Analysis (EDA)** of **32 real problematic messages** identified from a dataset of 99 merchant messages (**not theoretical patterns**):
 
 #### 📊 Real Quality Issues Detected Through EDA
 ```python
@@ -213,7 +213,7 @@ The system tracks merchants with recurring quality issues **(IDs: 1, 3, 5, 6, 7 
 ### Social Matching Intelligence
 
 #### 🎯 **Data-Driven Clusters** (Discovered Through EDA, Not Assumptions)
-Our matching is based on **real business clusters discovered through systematic analysis** of merchant data:
+the matching is based on **real business clusters discovered through systematic analysis** of merchant data:
 
 ##### 1. Santos Logistics Cluster (85% Success Rate - Evidence-Based)
 ```python
@@ -309,7 +309,7 @@ def test_full_workflow_santos_logistics(orchestrator):
 ```
 
 #### 3. **Real Scenario Validation**
-Tests based on actual merchant messages from our EDA:
+Tests based on actual merchant messages from the EDA:
 - Santos logistics clustering
 - Marketing service matching  
 - Quality control for problematic patterns
@@ -366,9 +366,9 @@ pytest tests/test_edge_cases.py -v
 ## 📈 Real Data Foundation - The EDA Process
 
 ### Dataset Analysis Methodology
-Our system is built on **systematic Exploratory Data Analysis (EDA)** of authentic merchant behavior:
+The system is built on **systematic Exploratory Data Analysis (EDA)** of authentic merchant behavior:
 
-**📊 Data Sources:**
+**📊 Data Stheces:**
 - **99 real merchant messages** from 20 merchants across 6 months
 - **8 cities** with documented activity patterns  
 - **9 business categories** (MCC codes) with actual transaction data
@@ -388,7 +388,7 @@ Our system is built on **systematic Exploratory Data Analysis (EDA)** of authent
 - **Quality Patterns**: **32 problematic messages** with specific phrases and frequency data
 - **Success Probabilities**: Based on **cluster evidence and message similarity**, not estimates
 
-**🎯 Key Innovation:** Rather than building theoretical models, we discovered real patterns in actual merchant behavior and built our intelligence around proven opportunities.
+**🎯 Key Innovation:** Rather than building theoretical models, we discovered real patterns in actual merchant behavior and built the intelligence around proven opportunities.
 
 ## 🔗 API Endpoints
 
@@ -409,7 +409,7 @@ Content-Type: application/json
 ```json
 {
   "response": "Encontramos 3 parceiros no cluster de logística de Santos...",
-  "source_agent_response": "LLM generated response",
+  "sthece_agent_response": "LLM generated response",
   "agent_workflow": [
     {"agent_name": "RouterAgent", "classification": "logistics_sharing"},
     {"agent_name": "CommunityModerator", "action": "approve"},
@@ -509,7 +509,7 @@ curl -X POST "http://localhost:8000/process_message" \
 pip install -r requirements.txt
 
 # Set environment
-export OPENAI_API_KEY="your-key"
+export OPENAI_API_KEY="ythe-key"
 
 # Run with auto-reload
 uvicorn merchant_social_agents:app --reload --port 8000
