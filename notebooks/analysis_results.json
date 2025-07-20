@@ -1,0 +1,388 @@
+{
+  "basic_stats": {
+    "total_messages": 99,
+    "unique_merchants": 20,
+    "cities": {
+      "Santos": 34,
+      "Sorocaba": 30,
+      "Bauru": 10,
+      "São José dos Campos": 5,
+      "São Carlos": 5,
+      "Ribeirão Preto": 5,
+      "São Paulo": 5,
+      "Jundiaí": 5
+    },
+    "mcc_categories": {
+      "5814_Fast Food Restaurants": 26,
+      "7299_Misc. Personal Services": 23,
+      "5945_Hobby, Toy, and Game Shops": 15,
+      "7011_Hotels and Motels": 10,
+      "5411_Grocery Stores, Supermarkets": 5,
+      "5699_Misc. Apparel and Accessory Shops": 5,
+      "5732_Electronics Stores": 5,
+      "5812_Eating Places and Restaurants": 5,
+      "5994_News Dealers and Newsstands": 5
+    }
+  },
+  "geographic_clusters": {
+    "merchants_by_city": {
+      "Santos": 7,
+      "Sorocaba": 6,
+      "Bauru": 2,
+      "Jundiaí": 1,
+      "Ribeirão Preto": 1,
+      "São Carlos": 1,
+      "São José dos Campos": 1,
+      "São Paulo": 1
+    },
+    "messages_by_city": {
+      "Santos": 34,
+      "Sorocaba": 30,
+      "Bauru": 10,
+      "São José dos Campos": 5,
+      "São Carlos": 5,
+      "Ribeirão Preto": 5,
+      "São Paulo": 5,
+      "Jundiaí": 5
+    },
+    "santos_merchants": [
+      3,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20
+    ],
+    "hotspots": [
+      "Santos",
+      "Sorocaba"
+    ]
+  },
+  "message_patterns": {
+    "pattern_counts": {
+      "marketing": 13,
+      "products": 6,
+      "partnerships": 33,
+      "suppliers": 14,
+      "location_based": 10,
+      "logistics": 11,
+      "networking": 13,
+      "services": 3
+    },
+    "specific_needs": {
+      "clothing": 7,
+      "electronics": 3,
+      "sweets": 3,
+      "events": 9,
+      "toys": 5,
+      "packaging": 4,
+      "campinas_delivery": 3
+    },
+    "pattern_examples": {
+      "marketing": [
+        {
+          "merchant_id": 1,
+          "city": "São José dos Campos",
+          "message": "quero divulgar promoções da minha loja"
+        },
+        {
+          "merchant_id": 2,
+          "city": "São Carlos",
+          "message": "quero divulgar promoções da minha loja"
+        },
+        {
+          "merchant_id": 3,
+          "city": "Santos",
+          "message": "preciso de alguém que ajude com divulgação no insta"
+        }
+      ],
+      "products": [
+        {
+          "merchant_id": 2,
+          "city": "São Carlos",
+          "message": "preciso comprar tvs no atacado"
+        },
+        {
+          "merchant_id": 5,
+          "city": "Sorocaba",
+          "message": "compro e vendo eletronicos usados"
+        },
+        {
+          "merchant_id": 8,
+          "city": "Santos",
+          "message": "compro eletrônicos no atacado"
+        }
+      ],
+      "partnerships": [
+        {
+          "merchant_id": 2,
+          "city": "São Carlos",
+          "message": "olá, preciso encontrar parceiros de comida"
+        },
+        {
+          "merchant_id": 3,
+          "city": "Santos",
+          "message": "alguém interessado em parcerias para eventos?"
+        },
+        {
+          "merchant_id": 4,
+          "city": "Santos",
+          "message": "olá, preciso encontrar parceiros de frete"
+        }
+      ],
+      "suppliers": [
+        {
+          "merchant_id": 2,
+          "city": "São Carlos",
+          "message": "procuro fornecedores"
+        },
+        {
+          "merchant_id": 6,
+          "city": "Santos",
+          "message": "estou buscando fornecedores de embalagens na minha região"
+        },
+        {
+          "merchant_id": 9,
+          "city": "Sorocaba",
+          "message": "tenho interesse em fornecedores de roupas masculinas"
+        }
+      ],
+      "location_based": [
+        {
+          "merchant_id": 3,
+          "city": "Santos",
+          "message": "alguém da região?"
+        },
+        {
+          "merchant_id": 6,
+          "city": "Santos",
+          "message": "estou buscando fornecedores de embalagens na minha região"
+        },
+        {
+          "merchant_id": 10,
+          "city": "Santos",
+          "message": "estou buscando fornecedores de embalagens na minha região"
+        }
+      ],
+      "logistics": [
+        {
+          "merchant_id": 4,
+          "city": "Santos",
+          "message": "olá, preciso encontrar parceiros de frete"
+        },
+        {
+          "merchant_id": 6,
+          "city": "Santos",
+          "message": "olá, preciso encontrar parceiros de frete"
+        },
+        {
+          "merchant_id": 7,
+          "city": "Ribeirão Preto",
+          "message": "quero me conectar com outros lojistas que façam frete"
+        }
+      ],
+      "networking": [
+        {
+          "merchant_id": 4,
+          "city": "Santos",
+          "message": "quero me conectar com outros lojistas de brinquedos"
+        },
+        {
+          "merchant_id": 5,
+          "city": "Sorocaba",
+          "message": "quero me conectar com outros lojistas de brinquedos"
+        },
+        {
+          "merchant_id": 5,
+          "city": "Sorocaba",
+          "message": "conectar parceiros"
+        }
+      ],
+      "services": [
+        {
+          "merchant_id": 9,
+          "city": "Sorocaba",
+          "message": "faço posts no face tiktok insta"
+        },
+        {
+          "merchant_id": 9,
+          "city": "Sorocaba",
+          "message": "eu faço videos e trabalho com marketing digital"
+        },
+        {
+          "merchant_id": 19,
+          "city": "Bauru",
+          "message": "eu faço massagens"
+        }
+      ]
+    }
+  },
+  "business_opportunities": [
+    {
+      "type": "logistics_cluster",
+      "name": "Santos Shared Logistics",
+      "merchants": [
+        4,
+        6,
+        10,
+        15,
+        20
+      ],
+      "description": "5 merchants em Santos precisam de frete compartilhado",
+      "priority": "HIGH"
+    },
+    {
+      "type": "delivery_network",
+      "name": "Campinas Delivery Network",
+      "merchants": [
+        15,
+        19,
+        20
+      ],
+      "description": "3 merchants fazem/precisam entrega em Campinas",
+      "priority": "MEDIUM"
+    },
+    {
+      "type": "service_matching",
+      "name": "Marketing Services Network",
+      "providers": [
+        9
+      ],
+      "needers": [
+        6,
+        7,
+        18
+      ],
+      "description": "1 providers, 3 needers",
+      "priority": "HIGH"
+    }
+  ],
+  "quality_issues": {
+    "total_issues": 32,
+    "issue_types": {
+      "platform_question": 5,
+      "too_generic": 22,
+      "social_greeting": 3,
+      "vague_connection_request": 7,
+      "too_vague_question": 3,
+      "too_short": 6,
+      "incomplete_statement": 3,
+      "one_word_inquiry": 2
+    },
+    "problematic_merchants": {
+      "1": 2,
+      "3": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2
+    },
+    "examples": [
+      {
+        "merchant_id": 1,
+        "city": "São José dos Campos",
+        "message": "como funciona?",
+        "issues": [
+          "platform_question"
+        ]
+      },
+      {
+        "merchant_id": 1,
+        "city": "São José dos Campos",
+        "message": "quero vender mais",
+        "issues": [
+          "too_generic"
+        ]
+      },
+      {
+        "merchant_id": 2,
+        "city": "São Carlos",
+        "message": "oi td bom?",
+        "issues": [
+          "social_greeting"
+        ]
+      },
+      {
+        "merchant_id": 3,
+        "city": "Santos",
+        "message": "alguém da região?",
+        "issues": [
+          "too_generic"
+        ]
+      },
+      {
+        "merchant_id": 3,
+        "city": "Santos",
+        "message": "oi td bom?",
+        "issues": [
+          "social_greeting"
+        ]
+      },
+      {
+        "merchant_id": 4,
+        "city": "Santos",
+        "message": "preciso arranjar cliente",
+        "issues": [
+          "too_generic"
+        ]
+      },
+      {
+        "merchant_id": 5,
+        "city": "Sorocaba",
+        "message": "conectar parceiros",
+        "issues": [
+          "vague_connection_request",
+          "too_generic"
+        ]
+      },
+      {
+        "merchant_id": 5,
+        "city": "Sorocaba",
+        "message": "alguém?",
+        "issues": [
+          "too_vague_question",
+          "too_short",
+          "too_generic"
+        ]
+      },
+      {
+        "merchant_id": 6,
+        "city": "Santos",
+        "message": "conectar parceiro",
+        "issues": [
+          "vague_connection_request",
+          "too_generic"
+        ]
+      },
+      {
+        "merchant_id": 6,
+        "city": "Santos",
+        "message": "quero vender mais",
+        "issues": [
+          "too_generic"
+        ]
+      }
+    ]
+  },
+  "matching_rules": [
+    {
+      "name": "santos_logistics_cluster",
+      "description": "Merchants em Santos que precisam de frete compartilhado",
+      "members": [
+        "4",
+        "6",
+        "10",
+        "15",
+        "20"
+      ],
+      "trigger_keywords": [
+        "frete",
+        "entrega",
+        "parceiro",
+        "logística"
+      ],
+      "weight": 0.9,
+      "geographic_constraint": "Santos"
+    }
+  ]
+}
