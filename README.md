@@ -20,7 +20,7 @@ This system implements a coordinated swarm of 5 specialized agents that work tog
 - **99 real merchant messages** from 20 merchants
 - **8 cities** with documented activity patterns  
 - **9 business categories** (MCC codes)
-- **6 months** of authentic merchant interactions
+
 
 ### Key Discoveries from EDA
 ```
